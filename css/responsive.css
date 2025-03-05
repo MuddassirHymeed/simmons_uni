@@ -1,0 +1,156 @@
+@media (min-width: 300px) and (max-width: 768px) {
+    .header {
+        width: 100%;
+    }
+
+    .header .top_header {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header .top_header .links {
+        display: none;
+    }
+
+    .header .top_header .title .main_heading {
+        font-size: 10vw;
+    }
+
+    .header .top_header .title .sub-heading {
+        font-size: 2.3vw;
+        padding-bottom: 2vw;
+
+    }
+
+    .header .top_header .buttons {
+        display: none;
+    }
+
+    .header .navbar {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        background-color: #003B75;
+        height: 80px;
+        overflow-y: auto;
+        flex-direction: column;
+    }
+
+    .header .navbar .nav_items ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        max-height: 100%;
+        overflow-y: auto;
+        padding: 10px 0;
+        scrollbar-width: thin;
+    }
+
+    .header .navbar .nav_items ul::-webkit-scrollbar {
+        width: 6px;
+    }
+
+
+    .header .navbar .nav_items ul li {
+        border-left: none !important;
+    }
+
+
+    .header .navbar .nav_items ul li .item {
+        color: #fff;
+        font-size: 3vw;
+        font-weight: 300;
+        display: block;
+        text-align: center;
+    }
+
+    .main {
+        width: 100%;
+        padding: 0.8vw;
+        margin-top: 7vw;
+    }
+
+    .main .banner img {
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+        object-fit: cover;
+    }
+
+    .main .move {
+        width: 100%;
+    }
+    .main .move .move_heading {
+        font-size: 3vw;
+    }
+    
+    .main .move .move_paragraph {
+        font-size: 2.2vw;
+    }
+
+    .main .programs {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 2fr;
+}
+
+.main .programs .categories {
+    width: 100%;
+    padding: 2vw;
+   
+}
+
+.main .programs .categories .h-utils {
+    font-size: 4.9vw;
+    margin-bottom: 1vw;
+}
+
+.main .programs .categories .p-utils {
+    font-size: 3vw;
+}
+
+.main .nextstep .steps {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+    font-size: 3vw;
+}
+
+.main .nextstep .steps .btn {
+    padding: 1.4vw;
+    width: 50%;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 50px;
+    padding-left: 5vw;
+}
+.footer h3{
+    font-size: 4vw;
+}
+.footer .gap{
+    padding-top: 1vw;
+}
+
+.footer ul li a{
+    font-size: 2.89vw;
+}
+
+.footer address p {
+    padding-top: 1vw;
+    font-size: 2.5vw;
+}
+
+}
+
